@@ -42,7 +42,7 @@ def main():
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("details", details))
 
-    dp.add_handler(MessageHandler(Filters.text, mimic))
+    dp.add_handler(MessageHandler(Filters.text, telegram-botmajor-app))
 
     dp.add_error_handler(error)
 
